@@ -1088,6 +1088,7 @@ footer span a:hover {
 .face1 h2 {
   background-color: crimson;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .face ul {
@@ -1103,6 +1104,7 @@ footer span a:hover {
 .face1 ul li {
   background-color: white;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .rent_cars .card .face.face2 {
