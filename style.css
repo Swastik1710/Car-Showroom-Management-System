@@ -278,14 +278,14 @@ section {
   align-items: center;
   justify-content: center;
   background: black;
-  padding: 50px 0 0 0;
+  padding: 60px 0 0 0;
 }
 #login .form {
   position: relative;
   max-width: 850px;
   width: 100%;
   background: #fff;
-  padding: 40px 30px;
+  padding: 20px 30px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   perspective: 2700px;
 }
@@ -1319,4 +1319,88 @@ footer span a:hover {
 .car_btns a:hover {
   background: none;
   color: black;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background: url(./Images/bg.png);
+  margin: 100px auto; /* 15% from the top and centered */
+  padding: 10px;
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+.close {
+  color: crimson;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content h3 {
+  margin: 10px;
+}
+
+.booking {
+  background-color: white;
+  border: 2px solid crimson;
+  display: flex;
+  padding: 10px;
+  text-align: left;
+}
+
+.booking h2 {
+  color: crimson;
+  margin: 10px;
+  font-weight: 300;
+}
+
+.booking h2 span {
+  color: black;
+}
+
+.booking .customer {
+  border-right: 3px solid crimson; 
+}
+
+.backtohome {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0px;
+  /* position: absolute; */
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.backtohome a{
+  background-color: crimson;
+  border: 2px solid crimson;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.backtohome a:hover {
+  background: none;
+  color: crimson
 }
