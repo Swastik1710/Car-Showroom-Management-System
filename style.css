@@ -1484,3 +1484,80 @@ footer span a:hover {
 .rent_success-content h3 {
   margin: 10px;
 }
+
+/* LANDING PAGE STYLES */
+
+.landing-btn {
+  text-align: center;
+  padding: 10px;
+}
+
+.landing-btn a{
+  background-color: crimson;
+  border: 2px solid crimson;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.landing-btn a:hover {
+  background: none;
+  color: crimson
+}
+
+.landing_img {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-content h2{
+  text-align: center;
+  margin: 10px;
+}
+
+#landing .brands {
+  padding: 50px 0 20px 0;
+}
+
+#landing .cars {
+  background: url(/static/img/bg.png);
+  padding-bottom: 50px;
+}
+
+#landing .cars h2 {
+  color: black;
+}
+
+#landing .card_content {
+  height: 290px;
+}
+
+.cars .cars_head {
+  width: 90%;
+  margin: -50px auto 100px auto;
+}
+
+.cars .cars_head h2 {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 300;
+  border-bottom: 3px solid crimson;
+}
+
+/* LOGOUT PAGE STYLES */
+
+.logout {
+  background: url(/static/img/bg.png);
+  height: 93vh;
+}
+
+.logout_content {
+  text-align: center;
+  margin: 150px auto;
+}
+
+.logout_content h2 {
+  margin: 30px;
+}
