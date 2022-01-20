@@ -841,7 +841,7 @@ footer span a:hover {
 .brand-item img{
   height: 200px;
   width: 200px;
-  margin: 35px 50px;
+  margin: 35px 100px;
   object-fit: contain;
 }
 
@@ -905,7 +905,7 @@ footer span a:hover {
   padding: 15px;
 }
 
-.card_btn a{
+.card_btn input{
   background-color: crimson;
   border: 2px solid crimson;
   color: white;
@@ -914,7 +914,7 @@ footer span a:hover {
   font-size: 20px;
 }
 
-.card_btn a:hover {
+.card_btn input:hover {
   background: none;
   color: white
 }
@@ -1188,7 +1188,7 @@ footer span a:hover {
   margin-top: 60px;
 }
 
-.car_btns a{
+.car_btns a, .car_btns input {
   background-color: crimson;
   color: white;
   border: 3px solid crimson;
@@ -1198,47 +1198,9 @@ footer span a:hover {
   margin: 20px;
 }
 
-.car_btns a:hover {
+.car_btns a:hover, .car_btns input:hover {
   background: none;
   color: black;
-}
-
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 100; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: hidden; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background: url(./Images/bg.png);
-  margin: 100px auto; /* 15% from the top and centered */
-  padding: 10px;
-  border: 1px solid #888;
-  width: 60%; /* Could be more or less, depending on screen size */
-}
-.close {
-  color: crimson;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.modal-content h3 {
-  margin: 10px;
 }
 
 .booking {
@@ -1560,4 +1522,29 @@ footer span a:hover {
 
 .logout_content h2 {
   margin: 30px;
+}
+
+/* BUY SUCCESS STYLES */
+
+.buy_success {
+  width: 100%;
+  height: 10%;
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.buy_success .customer {
+  width: 50%;
+}
+.buy_success-content {
+  background: url(./Images/bg.png);
+  margin: 120px auto 60px auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: 60%;
+  text-align: center;
+}
+
+.buy_success-content h3 {
+  margin: 10px;
 }
