@@ -1008,38 +1008,32 @@ footer span a:hover {
   height: 60px;
 }
 .rent_cars .card:nth-child(1) .face.face2 {
-  /* background-image: linear-gradient(40deg, #fffc00 0%, #fc00ff 45%, #00fffc 100%); */
-  background: url(/static/img/brandcar1.jpg);
+  /* background: url(/static/img/brandcar1.jpg); */
   border-radius: 15px;
   background-position: left;
 }
 .rent_cars .card:nth-child(2) .face.face2 {
-  /* background-image: linear-gradient(40deg, #fc00ff 0%, #00fffc 45%, #fffc00 100%); */
-  background: url(/static/img/brandcar8.jpg);
+  /* background: url(/static/img/brandcar8.jpg); */
   border-radius: 15px;
   background-position: left;
 }
 .rent_cars .card:nth-child(3) .face.face2 {
-  /* background-image: linear-gradient(40deg, #00fffc 0%, #fc00ff 45%, #fffc00 100%); */
-  background: url(/static/img/brandcar5.jpg);
+  /* background: url(/static/img/brandcar5.jpg); */
   border-radius: 15px;
   background-position: left;
 }
 .rent_cars .card:nth-child(4) .face.face2 {
-  /* background-image: linear-gradient(40deg, #00fffc 0%, #fc00ff 45%, #fffc00 100%); */
-  background: url(/static/img/rent5.jpg);
+  /* background: url(/static/img/rent5.jpg); */
   border-radius: 15px;
   background-position: left;
 }
 .rent_cars .card:nth-child(5) .face.face2 {
-  /* background-image: linear-gradient(40deg, #00fffc 0%, #fc00ff 45%, #fffc00 100%); */
-  background: url(/static/img/rent6.jpg);
+  /* background: url(/static/img/rent6.jpg); */
   border-radius: 15px;
   background-position: left;
 }
 .rent_cars .card:nth-child(6) .face.face2 {
-  /* background-image: linear-gradient(40deg, #00fffc 0%, #fc00ff 45%, #fffc00 100%); */
-  background: url(/static/img/rent4.jpg);
+  /* background: url(/static/img/rent4.jpg); */
   border-radius: 15px;
   background-position: left; 
 }
